@@ -4,9 +4,6 @@ import ReactDOM from "react-dom";
 
 const PayPalButton = window.paypal.Buttons.driver("react", { React, ReactDOM });
 
-
-
-
 function App() {
   const [price, setPrice] = useState(0)
 
